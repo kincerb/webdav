@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 RUN apt-get update && \
-    apt-get install -y nginx-full apache2-utils && \
+    apt-get install -y nginx-full && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir -p /var/www/webdav && \
     mkdir -p /var/www/tmp && \
